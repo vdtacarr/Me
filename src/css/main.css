@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+html{
+    font-family: "Open Sans", sans-serif;
+}
+/* Navbar seciton*/
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 0.5rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    padding: 0.5rem;
+}
+/* Home section*/
+#home{
+        display: flex;
+        flex-direction: column;
+        justify-content: column;
+        align-items: center;
+        padding: 2rem;
+        border-bottom: 1px solid gray;
+
+}
+#home img{
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+#training{
+    color: #fff;
+    padding: 1rem;
+
+}
+#training  .items{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+}
+#training .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem ;
+}
+#training .items .item:hover{
+    color: red;
+    opacity: 0.6    ;
+}
+#courses .courses  .course-image{
+    position: relative;
+}
+#courses .courses  .course-image span{
+    background: red;
+    margin-left: 0.75rem;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
